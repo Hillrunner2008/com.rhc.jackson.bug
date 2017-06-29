@@ -21,35 +21,35 @@ When a variable is not wrapped in a Map as is the case with the kie-client "comp
 ```json
 {
 	"questionnaire": {
-		"com.citi.commonwealth.commons.questionnaire.Questionnaire": {
+		"com.rhc.jackson.bug.model.Questionnaire": {
 			"name": "NonReceived Dispute Flow",
 			"questions": [{
-				"@class": "com.citi.commonwealth.commons.questionnaire.OpenEndedQuestion",
+				"@class": "com.rhc.jackson.bug.model.OpenEndedQuestion",
 				"displayText": "What type of product was purchased?",
 				"possibleAnswers": [],
 				"answer": "Yes"
 			}, {
-				"@class": "com.citi.commonwealth.commons.questionnaire.MultipleChoiceQuestion",
+				"@class": "com.rhc.jackson.bug.model.MultipleChoiceQuestion",
 				"displayText": "Was the product to be picked up or delivered?",
 				"possibleAnswers": ["Picked Up", "Delivered to Address on File", "Delivered to Alternate Address"],
 				"answer": "Yes"
 			}, {
-				"@class": "com.citi.commonwealth.commons.questionnaire.YesOrNoQuestion",
+				"@class": "com.rhc.jackson.bug.model.YesOrNoQuestion",
 				"displayText": "Was any alternative person authorized to take delivery or pick up the merchandise?",
 				"possibleAnswers": ["Yes", "No"],
 				"answer": "Yes"
 			}, {
-				"@class": "com.citi.commonwealth.commons.questionnaire.YesOrNoQuestion",
+				"@class": "com.rhc.jackson.bug.model.YesOrNoQuestion",
 				"displayText": "Was a partial amount of the order received?",
 				"possibleAnswers": ["Yes", "No"],
 				"answer": "Yes"
 			}, {
-				"@class": "com.citi.commonwealth.commons.questionnaire.YesOrNoQuestion",
+				"@class": "com.rhc.jackson.bug.model.YesOrNoQuestion",
 				"displayText": "Has the merchant been contacted about the merchandise not received?",
 				"possibleAnswers": ["Yes", "No"],
 				"answer": "Yes"
 			}, {
-				"@class": "com.citi.commonwealth.commons.questionnaire.OpenEndedQuestion",
+				"@class": "com.rhc.jackson.bug.model.OpenEndedQuestion",
 				"displayText": "What was the expected date to receive the merchandise?",
 				"possibleAnswers": [],
 				"answer": "Yes"
