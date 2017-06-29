@@ -6,9 +6,13 @@ When using the kie-server client it seems it is impossible to configure the clie
 ### Steps to reproduce
 1. compile the project and deploy it to kie-server
 2. ensure the kie-server has the following user:
-	username: admin / password: admin
+```bash
+username: admin / password: admin
+```
 3. Run the UserTaskCompleteBugExample unit test
-	mvn test
+```bash
+mvn test
+```
 4. Observer the kie-server logs and see the error shown below
 
 ### Observations
